@@ -91,7 +91,7 @@ class _SignUpState extends State<SignUp> {
               child: Text(""),
             ),
             Container(
-              margin: EdgeInsets.only(top: 60.0, left: 20.0, right: 20.0),
+              margin: EdgeInsets.only(top: 50.0, left: 20.0, right: 20.0),
               child: Column(
                 children: [
                  /* Center(
@@ -101,7 +101,7 @@ class _SignUpState extends State<SignUp> {
                     fit: BoxFit.cover,
                   )),*/
                   SizedBox(
-                    height: 50.0,
+                    height: 0.0,
                   ),
                   Material(
                     elevation: 5.0,
@@ -109,7 +109,7 @@ class _SignUpState extends State<SignUp> {
                     child: Container(
                       padding: EdgeInsets.only(left: 20.0, right: 20.0),
                       width: MediaQuery.of(context).size.width,
-                      height: MediaQuery.of(context).size.height / 1.5,
+                      height: MediaQuery.of(context).size.height / 1.7,
                       decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20)),
@@ -118,7 +118,7 @@ class _SignUpState extends State<SignUp> {
                         child: Column(
                           children: [
                             SizedBox(
-                              height: 30.0,
+                              height: 40.0,
                             ),
                             Text(
                               "SignUp",
@@ -174,7 +174,7 @@ class _SignUpState extends State<SignUp> {
                               height: 20.0,
                             ),
                             SizedBox(
-                              height: 80.0,
+                              height: 50.0,
                             ),
                             GestureDetector(
                               onTap: () async {

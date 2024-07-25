@@ -10,7 +10,6 @@ import 'package:fooddeliveryapp/pages/signup.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
  
-  
   await Firebase.initializeApp();
   runApp(const MyApp());
 }

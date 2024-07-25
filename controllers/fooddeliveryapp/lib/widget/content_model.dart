@@ -8,7 +8,7 @@ class UnboardingContent {
 
 List<UnboardingContent> contents = [
   UnboardingContent(
-      description: "Discover, mark, and share your\n    favorite places with ease",
+      description: "Discover and mark",
       image: "images/screen1.png",
       title: "Discover, mark, and share your\n    favorite places with ease"),
   UnboardingContent(
